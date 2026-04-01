@@ -1,3 +1,7 @@
+import { add, subtract, multiply, divide } from "./utils/operations.js";
+import { parseNumbers, isValidOperation } from "./utils/parser.js";
+import _ from "lodash";
+
 /*
 ===================================================================
 Node.js & npm Lab — CLI Calculator
@@ -212,4 +216,3 @@ After completing all TODOs, test your calculator:
   Expected output: Invalid operation. Use: add, subtract, multiply, or divide
 
 */
-
